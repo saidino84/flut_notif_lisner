@@ -30,7 +30,8 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   # Notification Listener
-  android_notification_listener2: ^2.0.1
+  # android_notification_listener2: ^2.0.1
+  notifications: ^2.0.1
 
   get: ^4.3.0
 
