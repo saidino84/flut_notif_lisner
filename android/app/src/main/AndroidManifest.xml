@@ -3,6 +3,17 @@
    <application
         android:label="flut_notif_lisner"
         android:icon="@mipmap/ic_launcher">
+
+        <service
+        android:label="notifications"
+        android:name="dk.cachet.notifications.NotificationListener"
+        android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+        <intent-filter>
+            <action android:name="android.service.notification.NotificationListenerService" />
+        </intent-filter>
+    </service>
+
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

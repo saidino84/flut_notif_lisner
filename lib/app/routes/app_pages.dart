@@ -5,9 +5,12 @@ class AppPage {
     GetPage(
       name: AppRoute.HOME,
       page: () => HomePage(),
-      bindings: [
-        HomeBinding(),
-      ],
+      bindings: [HomeBinding(), AppBinding()],
+    ),
+    GetPage(
+      name: AppRoute.HACKIN,
+      page: () => HackingPage(),
+      bindings: [HackingBinding(), AppBinding()],
     ),
   ];
 }

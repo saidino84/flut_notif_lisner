@@ -1,4 +1,4 @@
 class AppRoute {
   static final String HOME = '/';
-  static final String NOFICATION = '/Notifications';
+  static final String HACKIN = '/hackin';
 }

@@ -1,10 +1,11 @@
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
-  var _i = 0;
-
+  var _i = 0.obs;
+  int get i => _i.value;
   increment() {
-    _i++;
-    update();
+    _i.value += 1;
+    print('incremented $_i');
+    // update();
   }
 }
