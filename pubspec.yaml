@@ -33,8 +33,11 @@ dependencies:
   # android_notification_listener2: ^2.0.1
   # notifications: ^2.0.1
   notifications: ^2.0.1
+  path_provider: ^2.0.2
 
   get: ^4.3.0
+  file_picker: ^3.0.4
+  image_picker: ^0.8.2
 
 dev_dependencies:
   flutter_test:

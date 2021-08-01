@@ -12,5 +12,10 @@ class AppPage {
       page: () => HackingPage(),
       bindings: [HackingBinding(), AppBinding()],
     ),
+    GetPage(
+      name: AppRoute.NATIVE,
+      page: () => NativeCodePage(),
+      bindings: [NativeCodeBinding(), AppBinding()],
+    ),
   ];
 }

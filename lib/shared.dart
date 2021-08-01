@@ -10,3 +10,7 @@ export 'package:flut_notif_lisner/app/bindings/app_binding.dart';
 
 export 'package:notifications/notifications.dart';
 export 'package:get/get.dart';
+// export 'package:path_provider/path_provider.dart'
+
+export 'package:flut_notif_lisner/app/bindings/nativecode_binding.dart';
+export 'package:flut_notif_lisner/app/ui/pages/nativecode_page/nativecode_page.dart';
